@@ -1,0 +1,4 @@
+UPDATE a SET
+  
+    LastName = 'testy'
+  WHERE LastName = 'test'; -- Specify a valid condition here. Removing the condition may update every row in the table!

@@ -1,0 +1,9 @@
+CREATE TABLE userdetails (
+    PersonID int,
+    LastName varchar(25),
+   attendence BOOL,
+	salary FLOAT,
+	joiningdate DATE,
+	logindateandtime DATETIME,
+	gross DOUBLE
+);

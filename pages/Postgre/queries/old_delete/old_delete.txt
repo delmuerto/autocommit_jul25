@@ -1,0 +1,2 @@
+DELETE FROM public."a"
+  WHERE "lastname" = 'xxx'; -- Specify a valid condition here. Removing the condition may delete everything in the table!

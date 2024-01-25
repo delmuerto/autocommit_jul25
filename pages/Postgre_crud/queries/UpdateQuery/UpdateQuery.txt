@@ -1,0 +1,7 @@
+UPDATE public."a" SET
+		"lastname" = '{{update_form.fieldState.lastname.isVisible ? update_form.formData.lastname : update_form.sourceData.lastname}}',
+		"attendence" = '{{update_form.fieldState.attendence.isVisible ? update_form.formData.attendence : update_form.sourceData.attendence}}',
+    "salary" = '{{update_form.fieldState.salary.isVisible ? update_form.formData.salary : update_form.sourceData.salary}}',
+		"joiningdate" = '{{update_form.fieldState.joiningdate.isVisible ? update_form.formData.joiningdate : update_form.sourceData.joiningdate}}',
+		"logindateandtime" = '{{update_form.fieldState.logindateandtime.isVisible ? update_form.formData.logindateandtime : update_form.sourceData.logindateandtime}}'
+WHERE "personid" = {{data_table.selectedRow.personid}};

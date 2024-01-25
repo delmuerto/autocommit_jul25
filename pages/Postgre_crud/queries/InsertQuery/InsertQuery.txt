@@ -1,0 +1,14 @@
+INSERT INTO public."a" (
+	"personid",
+	"lastname",
+	"attendence",
+	"salary",
+	"joiningdate",
+	"logindateandtime")
+VALUES (
+	'{{insert_form.formData.personid}}',
+	'{{insert_form.formData.lastname}}',
+	'{{insert_form.formData.attendence}}',
+	'{{insert_form.formData.salary}}',
+	'{{insert_form.formData.joiningdate}}',
+	'{{insert_form.formData.logindateandtime}}');

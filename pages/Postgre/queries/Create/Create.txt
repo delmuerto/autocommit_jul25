@@ -1,0 +1,8 @@
+CREATE TABLE aaab (
+    PersonID int,
+    LastName varchar(25),
+   attendence BOOL,
+	salary FLOAT,
+	joiningdate DATE,
+	logindateandtime DATE 
+);

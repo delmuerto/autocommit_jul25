@@ -1,0 +1,2 @@
+INSERT INTO a (PersonID, LastName, attendence, salary, joiningdate, logindateandtime, gross)
+  VALUES (1, 'test', 'true', '1000', '2019-07-01', '2019-07-01 10:00:00', 1.0);

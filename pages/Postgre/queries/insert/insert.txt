@@ -1,0 +1,8 @@
+insert into aaab (
+    PersonID ,
+    LastName ,
+   attendence ,
+	salary ,
+	joiningdate ,
+	logindateandtime 
+)VALUES (9, 'Shetty', true, '101.1','2007-12-13','2007-12-13');

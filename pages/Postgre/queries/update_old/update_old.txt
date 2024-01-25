@@ -1,0 +1,3 @@
+UPDATE public."a" SET
+ "lastname" = 'xxx'
+  WHERE "lastname" = 'xx'; -- Specify a valid condition here. Removing the condition may update every row in the table!

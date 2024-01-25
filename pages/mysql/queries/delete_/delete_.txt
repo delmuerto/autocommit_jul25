@@ -1,0 +1,2 @@
+	DELETE FROM  userdetails
+where PersonID = 9;

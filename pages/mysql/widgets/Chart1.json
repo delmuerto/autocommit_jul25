@@ -1,0 +1,71 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Chart1",
+    "allowScroll": false,
+    "displayName": "Chart",
+    "iconSVG": "/static/media/icon.6adbe31ed817fc4bfd66f9f0a6fc105c.svg",
+    "searchTags": [
+        "graph",
+        "visuals",
+        "visualisations"
+    ],
+    "topRow": 6,
+    "bottomRow": 38,
+    "parentRowSpace": 10,
+    "type": "CHART_WIDGET",
+    "hideCard": false,
+    "chartData": {"vuw2ac2no1": {
+        "data": "{{get.data.map( (obj) =>{ return  {'x': obj.LastName, 'y': obj.PersonID } })}}",
+        "seriesName": "Sales"
+    }},
+    "animateLoading": true,
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "dynamicBindingPathList": [
+        {"key": "chartData.vuw2ac2no1.data"},
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
+    "leftColumn": 0,
+    "customFusionChartConfig": {
+        "type": "column2d",
+        "dataSource": {
+            "data": [
+                {
+                    "label": "Product1",
+                    "value": 20000
+                },
+                {
+                    "label": "Product2",
+                    "value": 22000
+                },
+                {
+                    "label": "Product3",
+                    "value": 32000
+                }
+            ],
+            "chart": {
+                "yAxisName": "Revenue($)",
+                "xAxisName": "Product Line",
+                "caption": "Sales Report",
+                "theme": "fusion"
+            }
+        }
+    },
+    "key": "kh9p11fut6",
+    "showDataPointLabel": false,
+    "isDeprecated": false,
+    "rightColumn": 24,
+    "widgetId": "x2g9acaw9w",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "labelOrientation": "auto",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "yAxisName": "Revenue($)",
+    "chartName": "Sales Report",
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "xAxisName": "Product Line",
+    "chartType": "COLUMN_CHART"
+}

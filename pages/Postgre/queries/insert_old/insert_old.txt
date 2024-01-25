@@ -1,0 +1,2 @@
+INSERT INTO public."a" ("personid", "lastname", "attendence", "salary", "joiningdate", "logindateandtime")
+  VALUES (1, 'xx', 'true', 1.0, '2019-07-01', '2019-07-01');
