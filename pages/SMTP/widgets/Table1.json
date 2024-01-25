@@ -175,6 +175,7 @@
     "rightColumn": 36,
     "textSize": "0.875rem",
     "widgetId": "djbsrrk6rk",
+    "enableServerSideFiltering": false,
     "tableData": [
         {
             "task": "Drop a table",

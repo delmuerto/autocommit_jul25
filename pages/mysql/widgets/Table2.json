@@ -272,6 +272,7 @@
     "rightColumn": 60,
     "textSize": "0.875rem",
     "widgetId": "8w41fpmrh9",
+    "enableServerSideFiltering": false,
     "tableData": "{{get.data}}",
     "label": "Data",
     "searchKey": "",
